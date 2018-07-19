@@ -41,6 +41,8 @@ footer div{
 	width: 25;
 	border: 1px solid #000000;
 	border-radius: 10%;
+	max-width: 15%;
+	max-height:15%;
 }
 
 
