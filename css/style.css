@@ -54,12 +54,68 @@ footer div{
 	float: left;
 	width: 45%;
 	margin-left: 2%;
+	margin-top: 2%;
+	border:1px solid black;
+	padding: 10px;
+	border-radius: 2px;
 
 }
 
+.contact-form *, .social-media *{
+	margin-bottom: 10px;
+	width: 100%;
+}
 
 footer{
 	position: fixed;
 	width: 100%;
 	bottom: 0;
+}
+
+
+.social-media a{
+	text-decoration: none;
+	color:#000000;
+	display: block;
+
+}
+
+.social-media i{
+	display: inline;
+	margin-right: 5px;
+}
+
+.contact-form h3, .social-media h3 , .gallery h1{
+	text-align:  center;
+}
+
+
+.contact-form input[type="submit"]{
+	width: 80px;
+	display: block;
+	margin: 0 auto;
+	background-color: #0184ff;
+	color: #ffffff;
+	border-radius: 2px;
+	border:0;
+}
+
+
+.contact-form input[type="submit"]:hover{
+	opacity:0.5;
+	color:#fafafa;
+	background-color: black;
+}
+
+
+
+.gallery figure img{
+	width: 250px;
+	height: 250px;
+	border:1px solid black;
+}
+
+.gallery figure{
+	position: relative;
+	float:left;
 }
