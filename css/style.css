@@ -23,15 +23,21 @@ header nav ul li {
 	display:inline-block;
 	
 	margin-right: 10px;
-	padding: 7px;
+	padding: 5px;
 
 }
 
 footer div{
 	padding: 5px;
-	color: #ffffff;
+	color: #000000;
 }
 
+footer{
+	list-style: none;
+	background-color: rgba(0,0,0,0.2);
+	margin: 0;
+	text-align: center;
+}
 .mypic{
 	
 	text-align: center;
