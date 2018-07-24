@@ -8,7 +8,7 @@ header nav ul , footer{
 	list-style: none;
 	background-color: #484b4d;
 	margin: 0;
-	text-align: center;
+	text-align: right;
 	
 
 }
@@ -21,7 +21,8 @@ header nav ul li a {
 
 header nav ul li {
 	display:inline-block;
-	margin-left: 10px;
+	
+	margin-right: 10px;
 	padding: 7px;
 
 }
@@ -114,6 +115,9 @@ footer{
 	height: 250px;
 	border:1px solid black;
 }
+
+
+
 
 .gallery figure{
 	position: relative;
