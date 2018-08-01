@@ -34,27 +34,28 @@
 			<form action="" method="post">
 				<label>
 					<div>
-						Email
+						Email*
 					</div>
-					<input type="email" name="user-email" value="" placeholder="username@example@.com">
+					<input  id ="user-email" type="email" name="user-email" value="" placeholder="username@example.com">
 				</label>
 
 				<label>
 					<div>
-						Subject
+						Subject*
 					</div>
-					<input type="text" name="subject" value="" placeholder="short description">
+					<input  id="user-subject" type="text" name="subject" value="" placeholder="short description">
 				</label>
 
 				<label>
 					<div>
-						Message
+						Message*
 					</div>
 					<textarea name="Message"> </textarea>
 				</label>
 				<div>
-					<input type="Submit" name="Submit" value="Submit" placeholder="Send Message" onclick="alert('Hello')">
+					<input type="Submit" name="Submit" value="Submit" placeholder="Send Message" >
 				</div>
+				<p>Field with * are compulsory.</p>
 			</form>
 		</div>
 
