@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marksheet>
+	<cource>
+		<courceid>CSC401</courceid>
+		<title>Maths</title>
+		<TH>32</TH>
+		<IA>08</IA>
+		<ORPR>--</ORPR>
+		<TW>25</TW>
+		<total>150</total>
+	</cource>
+
+	<cource>
+		<courceid>CSC402</courceid>
+		<title>AOA</title>
+		<TH>32</TH>
+		<IA>08</IA>
+		<ORPR>10</ORPR>
+		<TW>10</TW>
+		<total>150</total>
+	</cource>
+
+	<cource>
+		<courceid>CSC403</courceid>
+		<title>COA</title>
+		<TH>32</TH>
+		<IA>08</IA>
+		<ORPR>10</ORPR>
+		<TW>10</TW>
+		<total>150</total>
+	</cource>
+
+	<cource>
+		<courceid>CSC404</courceid>
+		<title>CG</title>
+		<TH>32</TH>
+		<IA>08</IA>
+		<ORPR>10</ORPR>
+		<TW>10</TW>
+		<total>150</total>
+	</cource>
+
+
+	<cource>
+		<courceid>CSC405</courceid>
+		<title>OS</title>
+		<TH>32</TH>
+		<IA>08</IA>
+		<ORPR>10</ORPR>
+		<TW>10</TW>
+		<total>150</total>
+	</cource>
+
+	<cource>
+		<courceid>CSC406</courceid>
+		<title>OSTL</title>
+		<TH>--</TH>
+		<IA>--</IA>
+		<ORPR>30</ORPR>
+		<TW>30</TW>
+		<total>100</total>
+	</cource>
+
+
+</marksheet>
