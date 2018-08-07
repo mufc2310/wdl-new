@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration</title>
+    <style>
+    	.form-input{
+    		display: block;
+    	}
+    	#male,#female{
+    		display: inline;
+    	}
+    	#add{
+    		display: block;
+    	}
+    </style>
+</head>
+<body>
+	<h1>
+		Welcome To AIKTC	
+	</h1>
+	<form method="post" action="printinfo2.php">
+	  <fieldset>
+	  	<legend>Personal Information</legend>
+		
+		<label for="rollno">Roll No: </label>
+		<input  type="text" name="rollno" id="rollno" class="form-input" required="required" value=""/>
+		
+
+		<label for="sname">Name: </label>
+		<input type="text" name="sname" id="sname" class="form-input" required="required"/>
+		
+
+		<label>Gender: </label>
+		<input type="radio" name="gender" id="male" value="Male" class="form-input" required="required"/>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="female" value="Female" class="form-input" required="required"/>
+		<label for="female">Female</label>
+		
+
+		<label for="address" id="add">Address: </label>
+		<textarea cols="15" rows="4" name="address" id="address" class="form-input" required="required"></textarea>
+		
+
+
+		<label for="dob">Date of Birth: </label>
+		<input type="date" name="dob" id="dob" class="form-input" required="required"/>
+		
+
+	 </fieldset>
+
+	 <fieldset>
+	  	<legend>Academic Information</legend>
+		<label for="sem">Semester: </label>
+		<select name="sem" id="sem" size="1" class="form-input" required="required">
+			<option value="">--------</option>
+			<option value="1">I</option>
+			<option value="2">II</option>
+			<option value="3">III</option>
+			<option value="4">IV</option>
+			<option value="5">V</option>
+			<option value="6">VI</option>
+			<option value="7">VII</option>
+			<option value="8">VIII</option>
+		</select>
+		
+
+
+		<label for="email">Email: </label>
+		<input type="email" name="semail" id="semail" class="form-input" required="required"/>
+		
+
+		<label for="dept">Department:</label>
+		<select name="dept" id="dept" class="form-input" required="required">
+			<option value="">--------</option>
+			<option value="CO">Computer</option>
+			<option value="CE">Civil</option>
+			<option value="ME">Mechanical</option>
+			<option value="EE">Electrical</option>
+			<option value="EXTC">Electronics & Telecommunications</option>
+		</select>
+		
+
+		<label for="batch">Batch: </label>
+		<select name="batch" id="batch" class="form-input" required="required">
+			<option value="">--------</option>
+			<option value="B1">Batch 1</option>
+			<option value="B2">Batch 2</option>
+			<option value="B3">Batch 3</option>
+			<option value="B4">Batch 4</option>
+		</select>
+		
+	 </fieldset>
+		<input type="submit" id="ssubmit" class="form-button" value="Submit Form">
+	</form>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>	
+	<script src="js/app.js"></script>
+</body>
+</html>
