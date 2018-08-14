@@ -17,7 +17,8 @@
     <body>
 <?php
 require_once 'functions.php';
-if($_POST){
+if($_POST)
+{
     $rollno=  fix_rollno($_POST['rollno']);
     $name=  fix_name($_POST['sname']);
     $gender=$_POST['gender'];
@@ -111,7 +112,8 @@ if($_POST){
        header('Refresh:2, url=registration.html');
    }
 }
-else{
+else
+{
     header('Refresh:0, url=registration.html');
 }
 ?>
