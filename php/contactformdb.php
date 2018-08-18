@@ -8,10 +8,9 @@ if($_POST)
 	$message=$_POST['message'];
 	if(!empty($email)&&!empty($subject)&&!empty($message))
 	{
-		$link=mysqli_connect('localhost','root','test','Salman');
+		$link=mysqli_connect('localhost','root','root','salman');
 		if(!$link){
-            echo '<br>Unable to connect to Database.'
-            .mysqli_connect_error();
+            echo '<br>Unable to connect to Database.'.mysqli_connect_error();
         }
 
         $query="Insert into form values('$email','$subject','$message')";

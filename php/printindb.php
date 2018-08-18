@@ -33,7 +33,7 @@ if($_POST)
             !empty($semail)&&!empty($dept)&&!empty($batch)){
         
 //Inserting data in the database
-        $link=mysqli_connect('localhost','root','test','AIKTC');
+        $link=mysqli_connect('localhost','root','root','AIKTC');
         if(!$link){
             echo '<br>Unable to connect to Database.'
             .mysqli_connect_error();
