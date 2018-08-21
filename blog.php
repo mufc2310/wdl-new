@@ -41,13 +41,14 @@
 			}
 			if(isset($_SESSION['user']))
 			{
-				echo "<h1>Welcome $_SESSION[user]!!</h1>"
-				."<b>College : </b> $_SESSION[college]<br/>";
-				echo "<br/>"
-				."<form method='post' action='blog.php'>"
-				   	."<input type='hidden' name='logout' value='yes'/>"
-					."<input type='submit'  value='Logout'/>"
-				."</form>";
+				echo "<h1>Welcome $_SESSION[user]!!</h1>
+				College : $_SESSION[college]<br/>";
+
+				echo '<br/>
+				<form method="post" action="blog.php">
+				   	<input type="hidden" name="logout" value="yes"/>
+					<input type="submit"  value="Logout"/>
+				</form>';
 
 			}
 			else
