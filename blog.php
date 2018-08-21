@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php session_start(); ?>
 <html>
 <head>
 	<title>Reach me`</title>
@@ -29,11 +30,31 @@
 	</header>
 
 	<main>
+		<?php
+		
+		
+			if($_POST){
+				if($_POST['logout']=="yes")
+				{
+					session_destroy();
+				}
+			}
+			if(isset($_SESSION['user']))
+			{
+				echo "<h1>Welcome $_SESSION[user]!!</h1>"
+				."<b>College : </b> $_SESSION[college]<br/>";
+				echo "<br/>"
+				."<form method='post' action='blog.php'>"
+				   	."<input type='hidden' name='logout' value='yes'/>"
+					."<input type='submit'  value='Logout'/>"
+				."</form>";
 
-		<h3>Under Construction!</h3>
-
-
-
+			}
+			else
+			{
+				header("Refresh:1, url=login.php");
+			}
+		?>
 	</main>
 
 

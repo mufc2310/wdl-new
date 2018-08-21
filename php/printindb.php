@@ -33,12 +33,12 @@ if($_POST)
             !empty($semail)&&!empty($dept)&&!empty($batch)){
         
 //Inserting data in the database
-        $link=mysqli_connect('localhost','root','root','AIKTC');
+        $link=mysqli_connect('localhost','root','root','aiktc');
         if(!$link){
             echo '<br>Unable to connect to Database.'
             .mysqli_connect_error();
         }
-        $query="Insert into Students values ('$rollno','$name','$gender',"
+        $query="Insert into students values ('$rollno','$name','$gender',"
                 . "'$address','$dob',"
                 . "'$sem','$semail','$dept','$batch')";
         $result=mysqli_query($link,$query);
