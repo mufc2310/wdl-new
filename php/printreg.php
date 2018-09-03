@@ -2,6 +2,17 @@
 <html>
 <head>
 	<title>Registration Info</title>
+	 <style>
+            table{
+                border: 2px solid black;
+            }
+            table td{
+                padding: 2px;
+            }
+            table tr:nth-child(odd){
+                background-color: #f1f8ff;
+            }
+      </style>
 </head>
 <body>
 <?php

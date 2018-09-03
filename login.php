@@ -25,12 +25,13 @@
 		if($_POST){
 			$username=$_POST['username'];
 			$pass=$_POST['pass'];
-			if($username=="salman" && $pass=="123456")
+			if($username=="Salman" && $pass=="123456")
 			{
 				echo '<span>Login Successful!
 				 waiting for Blog page</span>';
 				 $_SESSION['user']=$username;
 				 $_SESSION['college']="AIKTC";
+				 $_SESSION['class']="TE";
 				 header("Refresh:2, url=blog.php");
 			}
 			else

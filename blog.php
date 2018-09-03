@@ -42,7 +42,9 @@
 			if(isset($_SESSION['user']))
 			{
 				echo "<h1>Welcome $_SESSION[user]!!</h1>
-				College : $_SESSION[college]<br/>";
+				Name : $_SESSION[user]<br/>
+				College : $_SESSION[college]<br/>
+				Class : $_SESSION[class]<br/>";
 
 				echo '<br/>
 				<form method="post" action="blog.php">
