@@ -9,8 +9,6 @@ header nav ul , footer{
 	background-color: #484b4d;
 	margin: 0;
 	text-align: right;
-	
-
 }
 
 header nav ul li a {
@@ -138,3 +136,4 @@ footer{
 	position: relative;
 	float:left;
 }
+
