@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
+
+
+Route::get('/resume', function () {
+    return view('index');
+});
+?>
